@@ -22,12 +22,12 @@
 }
 .ALL{
     color:black;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
         }
 .MC{
-    color:bisque;
-    font-size: 15px;
+    color:black;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
         }
 .MLS:hover {
@@ -135,5 +135,56 @@
             font-size: 15px;
             text-decoration: solid;
         }
+        #singers {
+            margin-top: 10px;
+            margin-left:15px;
+            border:5px solid black;
+            border-collapse: separate;
+            box-sizing:border-box;
+            }
+        #singers th{
+            color:navy;
+            text-align: center;
+            padding:20px;
+            border:5px solid darkgray;
+            }
+        #singers td{
+            color:darkgreen;
+            text-align: center;
+            padding: 25px;
+            border-bottom: 10px;
+            }
+        #singers th {
+            background-color:greenyellow;
+            }  
+        #singers tr:nth-child(even){
+            background-color:grey;
+        }
+        #singers tr:nth-child(odd){
+            background-color:pink;
+            }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:mediumorchid;
+            display: inline;
+            }
+              
+        li {
+            float: left;
+            }
+              
+        li a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+              
+        li a:hover{
+            background-color: skyblue;
+            }  
         
     
